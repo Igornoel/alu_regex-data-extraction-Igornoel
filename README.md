@@ -1,4 +1,4 @@
-ALU Regex Data Extraction
+ALU RegEX Data Extraction Tool  
 A Python tool for extracting various data patterns from text using regular expressions.
 Features
 Extracts the following patterns:
@@ -11,15 +11,10 @@ Time formats (e.g., 14:30, 2:30 PM)
 HTML tags (e.g., <div class="example">, <p>)
 Hashtags (e.g., #example, #ThisIsAHashtag)
 Currency amounts (e.g., $19.99, $1,234.56)
+Setup Instructions
+Clone the Repository:
 
-Installation
-
-Clone the repository:
-
-bashCopygit clone https://github.com/yourusername/alu_regex-data-extraction-Igornoel.git
-cd alu_regex-data-extraction-Igornoel
-
-Make sure you have Python 3.6+ installed.
+git clone https://github.com/YourUsername/alu_regex-data-extraction-YourUsername.git cd alu_regex-data-extraction-YourUsername
 
 Usage
 Run the main script:
@@ -29,13 +24,6 @@ The tool provides two options:
 Test with sample data
 Enter custom text for pattern extraction
 
-Example Usage in Code
-pythonCopyfrom main import DataExtractor
-
-extractor = DataExtractor()
-text = "Contact us at support@example.com or call (123) 456-7890"
-results = extractor.extract_data(text)
-print(results)
 Testing
 The code includes built-in test cases that demonstrate various pattern matches. Run the tests by selecting option 1 in the main menu.
 Regex Patterns
@@ -50,13 +38,6 @@ Pattern: https?://(?:www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b(
 Matches: HTTP/HTTPS URLs with optional www, paths, and parameters
 
 [Continue with other patterns...]
-Contributing
 
-Fork the repository
-Create your feature branch (git checkout -b feature/AmazingFeature)
-Commit your changes (git commit -m 'Add some AmazingFeature')
-Push to the branch (git push origin feature/AmazingFeature)
-Open a Pull Request
-
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+Credits:
+Developer: Igornoel Email: n.ishimwe4@alustudent.com Role: Junior Full Stack Developer 
